@@ -18,4 +18,4 @@ Feature: Let's shop tests
 
     Examples: 
       | url  | firstName | lastName | userEmail | userMobile | occupation | userPassword |
-      | https://rahulshettyacademy.com/client | User | Test | user0.test5@gmail.com | 1612345678 | Student | 1234@User5678 |
+      | https://rahulshettyacademy.com/client | User | Test | user0.test6@gmail.com | 1612345678 | Student | 1234@User5678 |
