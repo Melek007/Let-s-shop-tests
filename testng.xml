@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-   <classes>
-    <class name="register.CucumberTestNGTestrunner"/>
-    <class name="login.CucumberTestNGTestrunner"/>
-   </classes>
+    <classes>
+      <class name="register.CucumberTestNGTestrunner"></class>
+      <class name="login.CucumberTestNGTestrunner"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
