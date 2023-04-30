@@ -2,15 +2,13 @@ package addToCart;
 
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
 import rep.Methods;
 
-public class KdtScript extends Methods{
-	public KdtScript(WebDriver driver) {
-		super(driver);
-	}
-
-	public static void main(String[] args) throws InterruptedException {
+public class KdtScript {
+	@Test
+	public void addToCartTestCase() throws InterruptedException {
 		//Test Data
 		String url="https://rahulshettyacademy.com/client/";
 		String userEmail="user0.test5@gmail.com";
