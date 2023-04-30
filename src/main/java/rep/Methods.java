@@ -16,9 +16,6 @@ public class Methods {
 	
 	public void fillLoginDetails(String userEmail, String userPassword)
 	{
-		/*userEmailElement.sendKeys(userEmail);
-		userPasswordElement.sendKeys(userPassword);
-		loginButtonElement.click();*/
 		driver.findElement(By.id("userEmail")).sendKeys(userEmail);
 		driver.findElement(By.id("userPassword")).sendKeys(userPassword);
 		driver.findElement(By.id("login")).click();
@@ -44,5 +41,11 @@ public class Methods {
 				driver.findElements(By.xpath("//div/button[.=' Add To Cart']")).get(i).click();
 			}
 		}
+	}
+	
+	public void signOut() throws InterruptedException 
+	{
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//ul/li[5]/button[@class=\"btn btn-custom\"]")).click();
 	}
 }

@@ -5,6 +5,7 @@
     <classes>
       <class name="register.CucumberTestNGTestrunner"></class>
       <class name="login.CucumberTestNGTestrunner"/>
+      <class name="signOut.SignOutCucumberTestNGTestrunner"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
